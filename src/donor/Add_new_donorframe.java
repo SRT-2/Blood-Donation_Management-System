@@ -574,7 +574,8 @@ public class Add_new_donorframe extends javax.swing.JFrame {
         
         ToCalculateLinearRegression tclr=new ToCalculateLinearRegression();
         ArrayList body_mass_index= tclr.getBMI(data);
-        ArrayList blood_volume = tclr.getBlood_Volume(data);  
+        ArrayList blood_volume = tclr.getBlood_Volume(data); 
+        int n;
         
         String gender="";
         if(jRadioButton1.isSelected())
